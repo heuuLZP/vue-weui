@@ -35,6 +35,9 @@
             },(response) => {
               console.log("数据错误")
             })
+            .catch((response) => {
+              console.log(response)
+            })
       }
     }
   }
